@@ -21,6 +21,7 @@ auth1 = Author( "Robert" , "Keyosaki")
 auth2 = Author( "James" , "Clear")
 
 b1 = book("RichDad PoorDad", 200, auth1)
+
 b2 = book("Atomic Habits", 300, auth2)
 
 print(b1.get_book_details())
